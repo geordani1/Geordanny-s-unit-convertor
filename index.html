@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main class="container">
+        <section class="converterSection">
+            <h1>geordanny's Imperial/Metric Unit convertor </h1>
+            <div class="number">
+                <input id="input" min="1" type="number" for="convert-btn" class="convertInput">
+            </div>
+            <button id="converter-btn">Convert</button>
+        </section>
+
+        <section class="result">
+            <div>
+                <h2>Length <span>(feet/Meter)</span></h2>
+                <p id="metertoFeet">0 meters = 0.000 feet</p>
+                <p id="feetToMeters">0 feet = 0.000 meters</p>
+            </div>
+            <div>
+                <h2>Volume <span>(Gallons/Liters)</span></h2>
+                <p id="litersToGallons">0 Liters = 0.000 Gallons </p>
+                <p id="gallonsToLiters">0 Gallons = 0.000 Liters</p>
+            </div>
+            <div>
+                <h2>Mass <span>(Pounds/Kilograms)</span></h2>
+                <p  id="poundToKilograms">0 Pounds = 0.000 Kilograms</p>
+                <p id="kilogramsToPounds">0 Kilograms = 0.000 Pounds </p>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
